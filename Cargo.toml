@@ -8,10 +8,9 @@ edition = "2018"
 
 [dependencies]
 gloo-events = "0.1.1"
-web-sys = { version = "0.3.45", features = ["Element", "Document", "Window"] }
+web-sys = { version = "0.3.55", features = ["Element", "Document", "Window"] }
 futures = "0.3"
 
 [dependencies.bevy]
-git = "https://github.com/bevyengine/bevy.git"
-branch = "main"
+version = "0.6.0"
 default-features = false
